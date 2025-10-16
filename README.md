@@ -3,7 +3,7 @@ Disclaimer: This video is the property of its original creator and is shared her
 
 FreeCodeCamp . Original video: https://www.youtube.com/watch?v=o0XbHvKxw7Y&t=989sIf you are the copyright owner and would like this content removed, please contact me directly. rhidzkhan.ahmad99@gmail.com
 
-5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:50
+5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:50 / 8:55
 
 #How basic request response cycle works
 - in web page if you click an href 
@@ -636,6 +636,23 @@ we must provide a template called "registration/login.html"
 
 - we can put this in any of our application templates folder 
 
-
 - login page is provided by django but we need a template 
-- we get to control the teamplate 
+
+- we get to control the template  
+
+### Data for the logged in user
+
+
+### Accessing user data in Python
+
+
+### Views that require a logged in user 
+
+- Many of your views need to make sure that someone is logged in 
+before performing some operation that depends on the request.user
+data being set
+    request.user.id
+    request.user.email
+
+- you could check user.is_authenticated at the beginnin of each view
+and if user is not logged, redirect them to reverse('login) appropriate next = parameter
