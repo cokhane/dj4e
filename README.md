@@ -3,7 +3,7 @@ Disclaimer: This video is the property of its original creator and is shared her
 
 FreeCodeCamp . Original video: https://www.youtube.com/watch?v=o0XbHvKxw7Y&t=989sIf you are the copyright owner and would like this content removed, please contact me directly. rhidzkhan.ahmad99@gmail.com
 
-5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:50
+5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:55 // 9:00 // 9:13 // 9:24
 
 #How basic request response cycle works
 - in web page if you click an href 
@@ -639,3 +639,62 @@ we must provide a template called "registration/login.html"
 
 - login page is provided by django but we need a template 
 - we get to control the teamplate 
+
+### Idea of a mixin
+
+- we have an inherited class 
+- LoginRequiredMixin says 
+
+### Summary - Setting up login
+
+- add django.contrib.auth entries to INSTALLED_APPS and urlpatterns
+- Create a template named 'registration/login.htm'
+- Get urls for login and logout using reverse, reverse_lazy, or the url
+template tag 
+
+- Add the next "next=" parameter to those URLS to bring the user back to 
+a page after successfull login or logout 
+
+- add LoginRequiredMixin to views that can only be accessed by a logged in user
+
+################################################## How django helps you things that we are talking about 
+
+- forms are in the middle, connecte to models, view, templates, very powerful part 
+
+
+### Django's role in forms (DRY)
+
+- forms is complex. numerouse items of data of several different types may need to be prepared
+for display in a form, rendered as HTML, edited using a interface, returned to the server
+validated and cleanedup, then saved or passed on processing. 
+
+- Django form functionallity can simplify and automate this vast portion and more securely
+
+#Django handles 3 parts involved in forms
+- prepare and restructure data to make it ready for rendering 
+- creating HTML forms for the data 
+- receiving and processing submitted forms and data from the client
+
+### Form Handling Flow is complex
+
+#Create
+- produce empty form, check post data for validity, re-display form with errors
+if necessary, add the data to the db, redirect the user to a success page with success message 
+
+
+#Update 
+- Load old data, form with old data, check post data for validity, re-display form with error if necessary
+, update the data to db, redirect to success page wit sucess message 
+
+#Delete
+- load old data, product confirm page with POST form, recieve the post data
+delete the record, and redirect the user to a success page with a success message 
+
+
+### Django forms act as "glue"
+
+- Generate the necessary HTML to send to browser
+- recieve the POST date coming back from the browser 
+- validate the incoming POST data and produce HTML for an error 
+screen if necessary 
+- move the data from the form into a model and then store it in the db automatically
