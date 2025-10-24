@@ -3,7 +3,7 @@ Disclaimer: This video is the property of its original creator and is shared her
 
 FreeCodeCamp . Original video: https://www.youtube.com/watch?v=o0XbHvKxw7Y&t=989sIf you are the copyright owner and would like this content removed, please contact me directly. rhidzkhan.ahmad99@gmail.com
 
-5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:55 // 9:00 // 9:13 // 9:24
+5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:55 // 9:00 // 9:13 // 9:24 // 9:38
 
 #How basic request response cycle works
 - in web page if you click an href 
@@ -697,4 +697,16 @@ delete the record, and redirect the user to a success page with a success messag
 - recieve the POST date coming back from the browser 
 - validate the incoming POST data and produce HTML for an error 
 screen if necessary 
-- move the data from the form into a model and then store it in the db automatically
+- move the data from the form into a model and then store it in the db automatically 
+
+
+
+################################################## Auto
+
+### Look at how the MakeView in auto
+- its beautiful how it post the model of the make by using a
+model form!
+- there a much shorter version of this one!
+
+
+### Ill try to recreate my skate stuff
