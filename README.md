@@ -3,7 +3,7 @@ Disclaimer: This video is the property of its original creator and is shared her
 
 FreeCodeCamp . Original video: https://www.youtube.com/watch?v=o0XbHvKxw7Y&t=989sIf you are the copyright owner and would like this content removed, please contact me directly. rhidzkhan.ahmad99@gmail.com
 
-5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:55 // 9:00 // 9:13 // 9:24 // 9:38
+5:29 // 5:54 // 6:13 // 6:30 // 7:30 // 7:51 // 8:26 / 8:55 // 9:00 // 9:13 // 9:24 // 9:38 // 9:06
 
 #How basic request response cycle works
 - in web page if you click an href 
